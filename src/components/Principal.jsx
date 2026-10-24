@@ -11,7 +11,7 @@ export default function Principal() {
       <div className="wrap principal__grid">
         <Reveal className="principal__media">
           <div className="principal__photo">
-            <img src={p.photo} alt={`${p.name}, ${p.role}`} loading="lazy" width="179" height="233" />
+            <img src={p.photo} alt={`${p.name}, ${p.role}`} loading="lazy" width="800" height="1038" />
           </div>
           <div className="principal__since">
             <span>Principal since</span>

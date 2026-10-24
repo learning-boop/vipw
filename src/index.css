@@ -595,7 +595,7 @@ a { color: var(--navy); }
   position: relative;
   width: 100%;
   height: auto;
-  aspect-ratio: 179 / 233;
+  aspect-ratio: 800 / 1038;
   object-fit: cover;
   object-position: top;
   border-radius: 200px 200px 28px 28px;
