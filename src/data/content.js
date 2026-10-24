@@ -413,3 +413,29 @@ export const COUNTERS = [
   { icon: 'layers', to: 5, decimals: 0, suffix: '', label: 'Departments' },
   { icon: 'award', to: 3.37, decimals: 2, suffix: '', label: 'NAAC CGPA (A+)' },
 ];
+
+// From the principal's faculty profile (vipw.in/viewprofile.php?id=9), the IQAC members page and the Ph.D guides page.
+export const PRINCIPAL = {
+  name: 'Dr. K. Padmalatha',
+  qualifications: 'M.Pharm., Ph.D.',
+  role: 'Professor and Principal',
+  department: 'Department of Pharmacology',
+  photo: `${PHOTO}principal.jpg`,
+  profile: 'https://vipw.in/viewprofile.php?id=9',
+  text: [
+    `Dr. K. Padmalatha has led ${INSTITUTE.name} as Principal since it opened in August ${INSTITUTE.founded}. A pharmacologist, she has taught pharmacy since 1990, and earlier served as Principal of East–West College of Pharmacy, Bangalore.`,
+    'She holds a B.Pharm from Gulbarga University, an M.Pharm from Al-Ameen College of Pharmacy (Bangalore University) and a Ph.D. from Andhra University. She chairs the institute’s IQAC and is an approved Ph.D. guide.',
+  ],
+  stats: [
+    { value: '1990', label: 'Teaching since' },
+    { value: '103', label: 'Publications' },
+    { value: '8', label: 'Ph.D. scholars' },
+    { value: '10', label: 'M.Pharm scholars' },
+  ],
+  memberships: [
+    'Life Member, Indian Pharmaceutical Association',
+    'Life Member, Indian Pharmacological Society',
+    'Life Member, Association of Pharmacy Professionals',
+    'Fellow, Antiviral Research Society',
+  ],
+};

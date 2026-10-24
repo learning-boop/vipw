@@ -11,7 +11,7 @@ const CODE = { ug: CODES.eapcet, pg: CODES.pgecet, pb: CODES.pgecet };
 // Seven cards fill a three-column grid evenly when these two take two columns each.
 const WIDE = new Set(['B.Pharmacy', 'Pharm D (PB)']);
 
-const ALL =PROGRAMME_TABS.flatMap((tab) => tab.items.map((p) => ({ ...p, tab: tab.id })));
+const ALL = PROGRAMME_TABS.flatMap((tab) => tab.items.map((p) => ({ ...p, tab: tab.id })));
 
 /** Programme cards in the style of a course grid, filterable by level. */
 export default function Programmes() {

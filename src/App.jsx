@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import Gallery from './components/Gallery';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Principal from './components/Principal';
 import Programmes from './components/Programmes';
 import TopBar from './components/TopBar';
 import VideoBlock from './components/VideoBlock';
@@ -24,6 +25,7 @@ export default function App() {
       <main id="main">
         <Hero />
         <About />
+        <Principal />
         <Counters />
         <Programmes />
         <VideoBlock />

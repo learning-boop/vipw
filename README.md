@@ -29,6 +29,7 @@ src/
     TopBar, Header       social/contact strip, sticky white header with mobile menu
     Hero                 full-width photo "film" with captions, campus video pop-up, "Current events" strip
     About                photo collage and intro
+    Principal            about the principal, from her vipw.in faculty profile
     Counters             count-up figures over a photo
     Programmes           filterable programme cards
     VideoBlock           featured YouTube video

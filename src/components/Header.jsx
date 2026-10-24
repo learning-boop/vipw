@@ -46,7 +46,13 @@ export default function Header() {
         </nav>
 
         <div className="header__actions">
-          <img className="header__naac hide-md" src={ASSETS.naac} alt="NAAC A+ accredited" width="46" height="46" />
+          <img
+            className="header__naac"
+            src={ASSETS.naac}
+            alt="NAAC accredited with A+ grade, CGPA 3.37 in the first cycle"
+            width="58"
+            height="58"
+          />
           <a className="btn btn--red btn--pill hide-xs" href="#enquire">
             <Icon name="doc" size={16} /> Apply now
           </a>
